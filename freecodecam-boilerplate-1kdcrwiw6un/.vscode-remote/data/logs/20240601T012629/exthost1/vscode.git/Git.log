@@ -1,0 +1,44 @@
+2024-06-01 01:26:34.952 [info] Log level: Info
+2024-06-01 01:26:34.952 [info] Validating found git in: "git"
+2024-06-01 01:26:34.952 [info] Using git "2.43.2" from "git"
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [297ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-06-01 01:26:34.952 [info] Open repository: /workspace/boilerplate-project-sudoku-solver
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [114ms]
+2024-06-01 01:26:34.952 [info] > git config --get commit.template [128ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [17ms]
+2024-06-01 01:26:34.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-06-01 01:26:34.952 [warning] ENOENT: no such file or directory, open '/workspace/boilerplate-project-sudoku-solver/.git/refs/remotes/origin/main'
+2024-06-01 01:26:34.952 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [34ms]
+2024-06-01 01:26:34.952 [info] > git status -z -uall [81ms]
+2024-06-01 01:26:34.952 [info] > git merge-base refs/heads/main refs/remotes/origin/main [70ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [106ms]
+2024-06-01 01:26:34.952 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [32ms]
+2024-06-01 01:26:34.952 [info] > git config --get commit.template [104ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [60ms]
+2024-06-01 01:26:34.952 [info] > git diff --name-status -z --diff-filter=ADMR 7e79855301d44b5203e508e00dc9f084e3a830ce...refs/remotes/origin/main [19ms]
+2024-06-01 01:26:34.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-01 01:26:34.952 [warning] ENOENT: no such file or directory, open '/workspace/boilerplate-project-sudoku-solver/.git/refs/remotes/origin/main'
+2024-06-01 01:26:34.952 [info] > git rev-parse --show-toplevel [71ms]
+2024-06-01 01:26:34.952 [info] > git rev-parse refs/remotes/origin/main [92ms]
+2024-06-01 01:26:34.953 [info] > git status -z -uall [4ms]
+2024-06-01 01:26:35.862 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-01 01:26:37.349 [info] > git config --local branch.main.github-pr-owner-number [303ms]
+2024-06-01 01:26:37.349 [warning] git config failed: Failed to execute git
+2024-06-01 01:27:03.580 [info] > git show --textconv :routes/api.js [22ms]
+2024-06-01 01:27:03.582 [info] > git ls-files --stage -- /workspace/boilerplate-project-sudoku-solver/routes/api.js [3ms]
+2024-06-01 01:27:03.600 [info] > git cat-file -s 9cece279baee1fa799c4f1e3c8ab04bde7d13ca2 [2ms]
+2024-06-01 01:31:36.462 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:31:36.463 [warning] git config failed: Failed to execute git
+2024-06-01 01:36:36.487 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:36:36.487 [warning] git config failed: Failed to execute git
+2024-06-01 01:41:36.508 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:41:36.508 [warning] git config failed: Failed to execute git
+2024-06-01 01:46:36.531 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:46:36.531 [warning] git config failed: Failed to execute git
+2024-06-01 01:51:36.548 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:51:36.548 [warning] git config failed: Failed to execute git
+2024-06-01 01:56:36.570 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-06-01 01:56:36.571 [warning] git config failed: Failed to execute git

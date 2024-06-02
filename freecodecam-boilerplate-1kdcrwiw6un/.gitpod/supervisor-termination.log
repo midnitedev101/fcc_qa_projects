@@ -1,0 +1,599 @@
+[380ns] Shutting down all processes 
+[193.53µs] Terminating process supervisor with PID 35 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.006533587s] Terminating process didn't finish, but had to be force killed 
+[15.006992607s] Terminating process node with PID 107 (state: S, cmdlind: [node /workspace/boilerplate-project-sudoku-solver/node_modules/.bin/nodemon server.js] <nil>). 
+[15.007041127s] Terminating process node with PID 463 (state: S, cmdlind: [/home/gitpod/.nvm/versions/node/v20.13.1/bin/node server.js] <nil>). 
+[15.007068756s] Terminating process didn't finish, but had to be force killed 
+[15.007117996s] Terminating process didn't finish, but had to be force killed 
+[15.007122216s] Terminating process node with PID 172 (state: S, cmdlind: [/ide/node /ide/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/gitpod/.cache/typescript/5.4 --enableTelemetry --typesMapLocation /ide/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation] <nil>). 
+[15.007179007s] Terminating process didn't finish, but had to be force killed 
+[15.007180867s] Terminating process node with PID 72 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.007201867s] Terminating process npm run start with PID 95 (state: S, cmdlind: [npm run start] <nil>). 
+[15.007228007s] Terminating process sh with PID 106 (state: S, cmdlind: [sh -c nodemon server.js] <nil>). 
+[15.007238347s] Terminating process node with PID 137 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.007250227s] Terminating process didn't finish, but had to be force killed 
+[15.007257547s] Terminating process didn't finish, but had to be force killed 
+[15.007264796s] Terminating process didn't finish, but had to be force killed 
+[15.007291976s] Terminating process node with PID 158 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-7d489c20d69a3934f9d0.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.007330907s] Terminating process didn't finish, but had to be force killed 
+[15.007347567s] Terminating process didn't finish, but had to be force killed 
+[15.007041476s] Terminating process bash with PID 84 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.007382187s] Terminating process didn't finish, but had to be force killed 
+[15.007387347s] Terminating process bash with PID 278 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[15.007405356s] Terminating process node with PID 159 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.007461356s] Terminating process node with PID 213 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=137] <nil>). 
+[15.007480607s] Terminating process didn't finish, but had to be force killed 
+[15.007409707s] Terminating process didn't finish, but had to be force killed 
+[15.007526176s] Terminating process didn't finish, but had to be force killed 
+[15.007522476s] Terminating process node with PID 227 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240601T201634] <nil>). 
+[15.007591587s] Terminating process node with PID 179 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[15.007612447s] Terminating process didn't finish, but had to be force killed 
+[15.007659556s] Terminating process didn't finish, but had to be force killed 
+[15.008038407s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.008049867s] Terminating process didn't finish, but had to be force killed 
+[15.008077156s] Terminating process bash with PID 84 (state: R, cmdlind: [] <nil>). 
+[15.008089376s] Terminating process didn't finish, but had to be force killed 
+[15.008176736s] Terminating process node with PID 213 (state: R, cmdlind: [] <nil>). 
+[15.008190436s] Terminating process didn't finish, but had to be force killed 
+[15.008244127s] Terminating process node with PID 179 (state: R, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[15.008258707s] Terminating process didn't finish, but had to be force killed 
+[15.008294716s] Terminating process node with PID 72 (state: R, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.008304816s] Terminating process didn't finish, but had to be force killed 
+[15.008659216s] Couldn't obtain process information for PID 106. 
+[15.008920147s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.008934456s] Terminating process didn't finish, but had to be force killed 
+[15.009069396s] Terminating process node with PID 179 (state: R, cmdlind: [] <nil>). 
+[15.009079216s] Terminating process didn't finish, but had to be force killed 
+[15.009636596s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.009656827s] Terminating process didn't finish, but had to be force killed 
+[15.010063716s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.010074796s] Terminating process didn't finish, but had to be force killed 
+[15.010503426s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.010522406s] Terminating process didn't finish, but had to be force killed 
+[15.011170306s] Terminating process node with PID 159 (state: R, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/784c5b266d3321f7d300/tscancellation-bdfcacc69d82c891134b.tmp* --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.011185266s] Terminating process didn't finish, but had to be force killed 
+[15.011902276s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.011914126s] Terminating process didn't finish, but had to be force killed 
+[15.012639196s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.012651016s] Terminating process didn't finish, but had to be force killed 
+[15.013385096s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.013396266s] Terminating process didn't finish, but had to be force killed 
+[15.014183666s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.014195146s] Terminating process didn't finish, but had to be force killed 
+[15.014989316s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.015011346s] Terminating process didn't finish, but had to be force killed 
+[15.016027607s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.016041067s] Terminating process didn't finish, but had to be force killed 
+[15.016745116s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.016756367s] Terminating process didn't finish, but had to be force killed 
+[15.019100547s] Couldn't obtain process information for PID 107. 
+[15.019252837s] Couldn't obtain process information for PID 227. 
+[15.019367967s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.019403047s] Terminating process didn't finish, but had to be force killed 
+[15.019834447s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.019847347s] Terminating process didn't finish, but had to be force killed 
+[15.020195756s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.020219216s] Terminating process didn't finish, but had to be force killed 
+[15.020520007s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.020534996s] Terminating process didn't finish, but had to be force killed 
+[15.020826907s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.020839527s] Terminating process didn't finish, but had to be force killed 
+[15.021281036s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.021298367s] Terminating process didn't finish, but had to be force killed 
+[15.021538607s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.021557916s] Terminating process didn't finish, but had to be force killed 
+[15.022215747s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.022228827s] Terminating process didn't finish, but had to be force killed 
+[15.022761967s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.022784596s] Terminating process didn't finish, but had to be force killed 
+[15.023016156s] Couldn't obtain process information for PID 95. 
+[15.023022387s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.023034436s] Terminating process didn't finish, but had to be force killed 
+[15.023563427s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.023586016s] Terminating process didn't finish, but had to be force killed 
+[15.023858287s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.023879536s] Terminating process didn't finish, but had to be force killed 
+[15.024115627s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.024128016s] Terminating process didn't finish, but had to be force killed 
+[15.024401827s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.024440976s] Terminating process didn't finish, but had to be force killed 
+[15.024818407s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.024839787s] Terminating process didn't finish, but had to be force killed 
+[15.025347256s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.025361046s] Terminating process didn't finish, but had to be force killed 
+[15.025861426s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.025877016s] Terminating process didn't finish, but had to be force killed 
+[15.026155486s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.026168926s] Terminating process didn't finish, but had to be force killed 
+[15.026532276s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.026558196s] Terminating process didn't finish, but had to be force killed 
+[15.026856376s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.026871606s] Terminating process didn't finish, but had to be force killed 
+[15.090839614s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.090875085s] Terminating process didn't finish, but had to be force killed 
+[15.091233725s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.091265585s] Terminating process didn't finish, but had to be force killed 
+[15.091557865s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.091575785s] Terminating process didn't finish, but had to be force killed 
+[15.091982104s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.092004684s] Terminating process didn't finish, but had to be force killed 
+[15.092437434s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.092453674s] Terminating process didn't finish, but had to be force killed 
+[15.092761324s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.092775524s] Terminating process didn't finish, but had to be force killed 
+[15.093069904s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.093092324s] Terminating process didn't finish, but had to be force killed 
+[15.093323104s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.093346174s] Terminating process didn't finish, but had to be force killed 
+[15.093596004s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.093611734s] Terminating process didn't finish, but had to be force killed 
+[15.093847104s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.093861344s] Terminating process didn't finish, but had to be force killed 
+[15.094114304s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.094126514s] Terminating process didn't finish, but had to be force killed 
+[15.094430904s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.094460144s] Terminating process didn't finish, but had to be force killed 
+[15.094736504s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.094752774s] Terminating process didn't finish, but had to be force killed 
+[15.095019724s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.095045394s] Terminating process didn't finish, but had to be force killed 
+[15.095480784s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.095504834s] Terminating process didn't finish, but had to be force killed 
+[15.095797564s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.095812514s] Terminating process didn't finish, but had to be force killed 
+[15.096050624s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.096066164s] Terminating process didn't finish, but had to be force killed 
+[15.096367684s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.096383954s] Terminating process didn't finish, but had to be force killed 
+[15.096648294s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.096680144s] Terminating process didn't finish, but had to be force killed 
+[15.096967634s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.096989124s] Terminating process didn't finish, but had to be force killed 
+[15.097268194s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.097289914s] Terminating process didn't finish, but had to be force killed 
+[15.097532134s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.097548204s] Terminating process didn't finish, but had to be force killed 
+[15.097877804s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.097893444s] Terminating process didn't finish, but had to be force killed 
+[15.098221014s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.098237334s] Terminating process didn't finish, but had to be force killed 
+[15.098594324s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.098623344s] Terminating process didn't finish, but had to be force killed 
+[15.098886134s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.098913704s] Terminating process didn't finish, but had to be force killed 
+[15.099183394s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.099195654s] Terminating process didn't finish, but had to be force killed 
+[15.099507754s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.099528014s] Terminating process didn't finish, but had to be force killed 
+[15.099848924s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.099872504s] Terminating process didn't finish, but had to be force killed 
+[15.100123114s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.100146594s] Terminating process didn't finish, but had to be force killed 
+[15.100409984s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.100426944s] Terminating process didn't finish, but had to be force killed 
+[15.100654304s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.100677184s] Terminating process didn't finish, but had to be force killed 
+[15.100994774s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.101015224s] Terminating process didn't finish, but had to be force killed 
+[15.101313264s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.101335994s] Terminating process didn't finish, but had to be force killed 
+[15.101618644s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.101641234s] Terminating process didn't finish, but had to be force killed 
+[15.101926564s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.101947584s] Terminating process didn't finish, but had to be force killed 
+[15.102197004s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.102215764s] Terminating process didn't finish, but had to be force killed 
+[15.102642084s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.102671834s] Terminating process didn't finish, but had to be force killed 
+[15.102915204s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.102932564s] Terminating process didn't finish, but had to be force killed 
+[15.103188754s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.103205334s] Terminating process didn't finish, but had to be force killed 
+[15.103487304s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.103508764s] Terminating process didn't finish, but had to be force killed 
+[15.103727484s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.103748534s] Terminating process didn't finish, but had to be force killed 
+[15.103972764s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.103989944s] Terminating process didn't finish, but had to be force killed 
+[15.104219704s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.104247754s] Terminating process didn't finish, but had to be force killed 
+[15.104576744s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.104593214s] Terminating process didn't finish, but had to be force killed 
+[15.104849964s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.104875904s] Terminating process didn't finish, but had to be force killed 
+[15.105119124s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.105143394s] Terminating process didn't finish, but had to be force killed 
+[15.105373934s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.105407244s] Terminating process didn't finish, but had to be force killed 
+[15.105630954s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.105663574s] Terminating process didn't finish, but had to be force killed 
+[15.105902814s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.105926004s] Terminating process didn't finish, but had to be force killed 
+[15.106189154s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.106208974s] Terminating process didn't finish, but had to be force killed 
+[15.106489044s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.106525174s] Terminating process didn't finish, but had to be force killed 
+[15.106794854s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.106812314s] Terminating process didn't finish, but had to be force killed 
+[15.107105794s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.107128544s] Terminating process didn't finish, but had to be force killed 
+[15.108381114s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.108402904s] Terminating process didn't finish, but had to be force killed 
+[15.108648944s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.108671304s] Terminating process didn't finish, but had to be force killed 
+[15.108982954s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.109005704s] Terminating process didn't finish, but had to be force killed 
+[15.109263054s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.109288944s] Terminating process didn't finish, but had to be force killed 
+[15.109627364s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.109654314s] Terminating process didn't finish, but had to be force killed 
+[15.109917334s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.109931594s] Terminating process didn't finish, but had to be force killed 
+[15.110310294s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.110345134s] Terminating process didn't finish, but had to be force killed 
+[15.110581214s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.110600494s] Terminating process didn't finish, but had to be force killed 
+[15.110813234s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.110839474s] Terminating process didn't finish, but had to be force killed 
+[15.111081904s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.111097514s] Terminating process didn't finish, but had to be force killed 
+[15.111124094s] Couldn't obtain process information for PID 137. 
+[15.111368674s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.111389544s] Terminating process didn't finish, but had to be force killed 
+[15.111622344s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.111648954s] Terminating process didn't finish, but had to be force killed 
+[15.111907704s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.111933274s] Terminating process didn't finish, but had to be force killed 
+[15.112212394s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.112245574s] Terminating process didn't finish, but had to be force killed 
+[15.112569153s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.112596364s] Terminating process didn't finish, but had to be force killed 
+[15.112873264s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.112896653s] Terminating process didn't finish, but had to be force killed 
+[15.113137593s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.113159513s] Terminating process didn't finish, but had to be force killed 
+[15.113423333s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.113451344s] Terminating process didn't finish, but had to be force killed 
+[15.113724404s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.113747044s] Terminating process didn't finish, but had to be force killed 
+[15.114024944s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.114053773s] Terminating process didn't finish, but had to be force killed 
+[15.114345564s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.114375593s] Terminating process didn't finish, but had to be force killed 
+[15.114583973s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.114598673s] Terminating process didn't finish, but had to be force killed 
+[15.114799964s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.114819613s] Terminating process didn't finish, but had to be force killed 
+[15.115046354s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.115071504s] Terminating process didn't finish, but had to be force killed 
+[15.115298044s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.115324644s] Terminating process didn't finish, but had to be force killed 
+[15.115549044s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.115560914s] Terminating process didn't finish, but had to be force killed 
+[15.116694864s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.116718834s] Terminating process didn't finish, but had to be force killed 
+[15.117025344s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.117048894s] Terminating process didn't finish, but had to be force killed 
+[15.117240104s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.117264124s] Terminating process didn't finish, but had to be force killed 
+[15.117500484s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.117523914s] Terminating process didn't finish, but had to be force killed 
+[15.117774574s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.117805414s] Terminating process didn't finish, but had to be force killed 
+[15.118004924s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.118028494s] Terminating process didn't finish, but had to be force killed 
+[15.118327994s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.118356364s] Terminating process didn't finish, but had to be force killed 
+[15.118568474s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.118589524s] Terminating process didn't finish, but had to be force killed 
+[15.119129644s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.119142744s] Terminating process didn't finish, but had to be force killed 
+[15.119877474s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.119902934s] Terminating process didn't finish, but had to be force killed 
+[15.120135644s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.120181484s] Terminating process didn't finish, but had to be force killed 
+[15.120371534s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.120390944s] Terminating process didn't finish, but had to be force killed 
+[15.120609374s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.120648614s] Terminating process didn't finish, but had to be force killed 
+[15.120872584s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.120896194s] Terminating process didn't finish, but had to be force killed 
+[15.121164704s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.121185534s] Terminating process didn't finish, but had to be force killed 
+[15.121415754s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.121438094s] Terminating process didn't finish, but had to be force killed 
+[15.121692454s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.121713544s] Terminating process didn't finish, but had to be force killed 
+[15.121971694s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.121994134s] Terminating process didn't finish, but had to be force killed 
+[15.122234684s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.122289844s] Terminating process didn't finish, but had to be force killed 
+[15.122574554s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.122596444s] Terminating process didn't finish, but had to be force killed 
+[15.122839194s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.122862784s] Terminating process didn't finish, but had to be force killed 
+[15.123089514s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.123107604s] Terminating process didn't finish, but had to be force killed 
+[15.123333084s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.123355624s] Terminating process didn't finish, but had to be force killed 
+[15.123535454s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.123547694s] Terminating process didn't finish, but had to be force killed 
+[15.123731144s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.123755714s] Terminating process didn't finish, but had to be force killed 
+[15.123926064s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.123960084s] Terminating process didn't finish, but had to be force killed 
+[15.124140964s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.124158934s] Terminating process didn't finish, but had to be force killed 
+[15.124495734s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.124551774s] Terminating process didn't finish, but had to be force killed 
+[15.124733514s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.124745044s] Terminating process didn't finish, but had to be force killed 
+[15.125036484s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.125060064s] Terminating process didn't finish, but had to be force killed 
+[15.125260784s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.125290564s] Terminating process didn't finish, but had to be force killed 
+[15.125477194s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.125525764s] Terminating process didn't finish, but had to be force killed 
+[15.125683454s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.125697764s] Terminating process didn't finish, but had to be force killed 
+[15.125855234s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.125874924s] Terminating process didn't finish, but had to be force killed 
+[15.126045534s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.126071664s] Terminating process didn't finish, but had to be force killed 
+[15.126209894s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.126221924s] Terminating process didn't finish, but had to be force killed 
+[15.126463674s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.126489684s] Terminating process didn't finish, but had to be force killed 
+[15.126778544s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.126823234s] Terminating process didn't finish, but had to be force killed 
+[15.127049764s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.127067514s] Terminating process didn't finish, but had to be force killed 
+[15.127248644s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.127264644s] Terminating process didn't finish, but had to be force killed 
+[15.127483864s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.127505204s] Terminating process didn't finish, but had to be force killed 
+[15.127757553s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.127779013s] Terminating process didn't finish, but had to be force killed 
+[15.128074133s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.128089213s] Terminating process didn't finish, but had to be force killed 
+[15.128279573s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.128299964s] Terminating process didn't finish, but had to be force killed 
+[15.128467453s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.128484664s] Terminating process didn't finish, but had to be force killed 
+[15.128657024s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.128676044s] Terminating process didn't finish, but had to be force killed 
+[15.128879933s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.128893164s] Terminating process didn't finish, but had to be force killed 
+[15.129117464s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.129146204s] Terminating process didn't finish, but had to be force killed 
+[15.129380844s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.129402713s] Terminating process didn't finish, but had to be force killed 
+[15.129606753s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.129629524s] Terminating process didn't finish, but had to be force killed 
+[15.129813624s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.129835333s] Terminating process didn't finish, but had to be force killed 
+[15.130024413s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130042393s] Terminating process didn't finish, but had to be force killed 
+[15.130189944s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130205424s] Terminating process didn't finish, but had to be force killed 
+[15.130418924s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130454924s] Terminating process didn't finish, but had to be force killed 
+[15.130626933s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130646073s] Terminating process didn't finish, but had to be force killed 
+[15.130798004s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130813944s] Terminating process didn't finish, but had to be force killed 
+[15.130948684s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.130956813s] Terminating process didn't finish, but had to be force killed 
+[15.131104944s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.131118464s] Terminating process didn't finish, but had to be force killed 
+[15.131252973s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.131267724s] Terminating process didn't finish, but had to be force killed 
+[15.131525333s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.131548324s] Terminating process didn't finish, but had to be force killed 
+[15.131979604s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.132002873s] Terminating process didn't finish, but had to be force killed 
+[15.132319113s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.132338033s] Terminating process didn't finish, but had to be force killed 
+[15.132700383s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.132720953s] Terminating process didn't finish, but had to be force killed 
+[15.132990783s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.133008473s] Terminating process didn't finish, but had to be force killed 
+[15.133227643s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.133247463s] Terminating process didn't finish, but had to be force killed 
+[15.133681773s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.133706313s] Terminating process didn't finish, but had to be force killed 
+[15.134069303s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.134087243s] Terminating process didn't finish, but had to be force killed 
+[15.134452463s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.134479423s] Terminating process didn't finish, but had to be force killed 
+[15.134695973s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.134714553s] Terminating process didn't finish, but had to be force killed 
+[15.134918883s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.134939323s] Terminating process didn't finish, but had to be force killed 
+[15.135106883s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.135123113s] Terminating process didn't finish, but had to be force killed 
+[15.135278123s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.135293613s] Terminating process didn't finish, but had to be force killed 
+[15.135471073s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.135491143s] Terminating process didn't finish, but had to be force killed 
+[15.135635143s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.135643903s] Terminating process didn't finish, but had to be force killed 
+[15.135921283s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.135945793s] Terminating process didn't finish, but had to be force killed 
+[15.136192753s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.136212073s] Terminating process didn't finish, but had to be force killed 
+[15.136379633s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.136421323s] Terminating process didn't finish, but had to be force killed 
+[15.136651483s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.136671073s] Terminating process didn't finish, but had to be force killed 
+[15.136848063s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.136864763s] Terminating process didn't finish, but had to be force killed 
+[15.137001293s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.137009193s] Terminating process didn't finish, but had to be force killed 
+[15.137671973s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.137689453s] Terminating process didn't finish, but had to be force killed 
+[15.137960233s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.137973973s] Terminating process didn't finish, but had to be force killed 
+[15.190452092s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.190485682s] Terminating process didn't finish, but had to be force killed 
+[15.191347582s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.191379752s] Terminating process didn't finish, but had to be force killed 
+[15.191657162s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.191686982s] Terminating process didn't finish, but had to be force killed 
+[15.191956012s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.191985482s] Terminating process didn't finish, but had to be force killed 
+[15.192252062s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.192277772s] Terminating process didn't finish, but had to be force killed 
+[15.192564832s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.192588712s] Terminating process didn't finish, but had to be force killed 
+[15.192855062s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.192879222s] Terminating process didn't finish, but had to be force killed 
+[15.193161842s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.193198202s] Terminating process didn't finish, but had to be force killed 
+[15.193498802s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.193519112s] Terminating process didn't finish, but had to be force killed 
+[15.193847502s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.193870352s] Terminating process didn't finish, but had to be force killed 
+[15.194139122s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.194161031s] Terminating process didn't finish, but had to be force killed 
+[15.194459111s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.194486791s] Terminating process didn't finish, but had to be force killed 
+[15.194797122s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.194822211s] Terminating process didn't finish, but had to be force killed 
+[15.195041951s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.195061691s] Terminating process didn't finish, but had to be force killed 
+[15.195299342s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.195320511s] Terminating process didn't finish, but had to be force killed 
+[15.195556662s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.195580071s] Terminating process didn't finish, but had to be force killed 
+[15.195739302s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.195747771s] Terminating process didn't finish, but had to be force killed 
+[15.198213591s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.198230662s] Terminating process didn't finish, but had to be force killed 
+[15.198514371s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.198545462s] Terminating process didn't finish, but had to be force killed 
+[15.198775982s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.198799151s] Terminating process didn't finish, but had to be force killed 
+[15.198993602s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199012831s] Terminating process didn't finish, but had to be force killed 
+[15.199158331s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199173091s] Terminating process didn't finish, but had to be force killed 
+[15.199379911s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199391751s] Terminating process didn't finish, but had to be force killed 
+[15.199591921s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199611711s] Terminating process didn't finish, but had to be force killed 
+[15.199776251s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199792991s] Terminating process didn't finish, but had to be force killed 
+[15.199943861s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.199956951s] Terminating process didn't finish, but had to be force killed 
+[15.200087591s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200102551s] Terminating process didn't finish, but had to be force killed 
+[15.200245951s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200258881s] Terminating process didn't finish, but had to be force killed 
+[15.200386501s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200421421s] Terminating process didn't finish, but had to be force killed 
+[15.200618401s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200634961s] Terminating process didn't finish, but had to be force killed 
+[15.200783021s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200798821s] Terminating process didn't finish, but had to be force killed 
+[15.200935691s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.200949851s] Terminating process didn't finish, but had to be force killed 
+[15.201102301s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.201110461s] Terminating process didn't finish, but had to be force killed 
+[15.201259981s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.201267881s] Terminating process didn't finish, but had to be force killed 
+[15.201436391s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.201452771s] Terminating process didn't finish, but had to be force killed 
+[15.201641111s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.201665821s] Terminating process didn't finish, but had to be force killed 
+[15.201928721s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.201953801s] Terminating process didn't finish, but had to be force killed 
+[15.202165751s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.202188841s] Terminating process didn't finish, but had to be force killed 
+[15.202436361s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.202470081s] Terminating process didn't finish, but had to be force killed 
+[15.202734611s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.202760801s] Terminating process didn't finish, but had to be force killed 
+[15.202967031s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.202984621s] Terminating process didn't finish, but had to be force killed 
+[15.203160011s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.203178091s] Terminating process didn't finish, but had to be force killed 
+[15.203336511s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.203350981s] Terminating process didn't finish, but had to be force killed 
+[15.203508001s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.203521061s] Terminating process didn't finish, but had to be force killed 
+[15.203682121s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.203704821s] Terminating process didn't finish, but had to be force killed 
+[15.203878171s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.203893751s] Terminating process didn't finish, but had to be force killed 
+[15.204034841s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.204055581s] Terminating process didn't finish, but had to be force killed 
+[15.204366601s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.204391481s] Terminating process didn't finish, but had to be force killed 
+[15.204740161s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.204756491s] Terminating process didn't finish, but had to be force killed 
+[15.204926591s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.204949861s] Terminating process didn't finish, but had to be force killed 
+[15.205145541s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.205167261s] Terminating process didn't finish, but had to be force killed 
+[15.205383081s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.205402711s] Terminating process didn't finish, but had to be force killed 
+[15.205689721s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.205708491s] Terminating process didn't finish, but had to be force killed 
+[15.205939901s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.205959481s] Terminating process didn't finish, but had to be force killed 
+[15.206139331s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.206162891s] Terminating process didn't finish, but had to be force killed 
+[15.206434051s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.206457851s] Terminating process didn't finish, but had to be force killed 
+[15.206664401s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.206679341s] Terminating process didn't finish, but had to be force killed 
+[15.206834431s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.206853901s] Terminating process didn't finish, but had to be force killed 
+[15.207043151s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207059471s] Terminating process didn't finish, but had to be force killed 
+[15.207218241s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207239171s] Terminating process didn't finish, but had to be force killed 
+[15.207409791s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207431441s] Terminating process didn't finish, but had to be force killed 
+[15.207617321s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207628451s] Terminating process didn't finish, but had to be force killed 
+[15.207799351s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207808341s] Terminating process didn't finish, but had to be force killed 
+[15.207962091s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.207990781s] Terminating process didn't finish, but had to be force killed 
+[15.208135751s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.208144151s] Terminating process didn't finish, but had to be force killed 
+[15.208344551s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.208361811s] Terminating process didn't finish, but had to be force killed 
+[15.208499671s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.208519521s] Terminating process didn't finish, but had to be force killed 
+[15.208667791s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.208683501s] Terminating process didn't finish, but had to be force killed 
+[15.208873011s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.208899221s] Terminating process didn't finish, but had to be force killed 
+[15.209088081s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209104671s] Terminating process didn't finish, but had to be force killed 
+[15.209260561s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209269241s] Terminating process didn't finish, but had to be force killed 
+[15.209435231s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209450841s] Terminating process didn't finish, but had to be force killed 
+[15.209598911s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209613381s] Terminating process didn't finish, but had to be force killed 
+[15.209764781s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209781511s] Terminating process didn't finish, but had to be force killed 
+[15.209950921s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.209971461s] Terminating process didn't finish, but had to be force killed 
+[15.210131441s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.210146951s] Terminating process didn't finish, but had to be force killed 
+[15.210350871s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.210373811s] Terminating process didn't finish, but had to be force killed 
+[15.210535021s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.210557271s] Terminating process didn't finish, but had to be force killed 
+[15.210711621s] Terminating process node with PID 159 (state: D, cmdlind: [] <nil>). 
+[15.210727871s] Terminating process didn't finish, but had to be force killed 
+[15.210871401s] Terminating process node with PID 159 (state: R, cmdlind: [] <nil>). 
+[15.210887351s] Terminating process didn't finish, but had to be force killed 
+[15.211657921s] Couldn't obtain process information for PID 159. 
+[15.211662981s] Couldn't obtain process information for PID 172. 
+[15.506523993s] Finished shutting down all processes. 
