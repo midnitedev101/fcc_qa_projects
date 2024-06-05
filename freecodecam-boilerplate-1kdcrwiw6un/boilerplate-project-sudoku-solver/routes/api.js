@@ -9,11 +9,30 @@ module.exports = function (app) {
   app.route('/api/check')
     .post((req, res) => {
       // console.log(req.body);
-      console.log("Check it")
+      // console.log("Check it")
       const {puzzle, coordinate, value} = req.body;
-      console.log(puzzle, coordinate, value);
+      // console.log(puzzle, coordinate, value);
+      if (!puzzle || !coordinate || !value) {
+        return res.json({ error: 'Required field(s) missing' });
+      }
+      if (/[^1-9]/g.test(value)) {
+        return res.json({ error: 'Invalid value' });
+      }
+      if (puzzle.length != 81) {
+        return res.json({ error: 'Expected puzzle to be 81 characters long' });
+      }
+      if (/[^1-9.]/g.test(puzzle)) {
+        return res.json({ error: 'Invalid characters in puzzle' });
+      }
+      if (coordinate.length != 2) {
+        return res.json({ error: 'Invalid coordinate'});
+      }
       const row = coordinate.split("")[0];
       const col = coordinate.split("")[1];
+      
+      if (!/[A-I]/gi.test(row) || !/[1-9]/gi.test(col)) {
+        return res.json({ error: 'Invalid coordinate'});
+      }
       let board = [];
       puzzle.match(/.{1,9}/g).forEach((m) => board.push(m.split("")));  // Split string into array of equal lengths (9 chars)
       // console.log(board);
@@ -27,7 +46,24 @@ module.exports = function (app) {
       const row_conflict = solver.checkRowPlacement(board,row_index,value);
       const col_conflict = solver.checkColPlacement(board,col_index,value);
       const region_conflict = solver.checkRegionPlacement(board,row_index,col_index,value);
-      if (!row_conflict || !col_conflict || !region_conflict)
+      // if (board[row_index][col_index] != '.')
+      // {
+      //   return res.json({ valid: false });
+      // }
+      // if (puzzle.length != 81) {
+      //   return res.json({ error: 'Expected puzzle to be 81 characters long' });
+      // }
+      // if (coordinate.length != 2 || !/[a-i]/i.test(row) || !/[1-9]/i.test(col)) {
+      //   return res.json({ error: 'Invalid coordinate'});
+      // }
+      
+      if (row_conflict && col_conflict && region_conflict) {
+        return res.json({ valid: true });
+      }
+      else if (board[row_index][col_index] == value) {
+        return res.json({ valid: true });
+      }
+      else if (!row_conflict || !col_conflict || !region_conflict)
       {
         let conflict_string = [];
         if (!row_conflict) conflict_string.push("row");
@@ -35,47 +71,56 @@ module.exports = function (app) {
         if (!region_conflict) conflict_string.push("region");
         return res.json({ valid: false, conflict: conflict_string });
       } 
-      else if (/[^\d.]/g.test(puzzle)) {
-        return res.json({ error: 'Invalid characters in puzzle' });
-      }
-      else if (puzzle.length != 81) {
-        return res.json({ error: 'Expected puzzle to be 81 characters long' });
-      }
-      else if (!puzzle || !coordinate || !value) {
-        return res.json({ error: 'Required field(s) missing' });
-      }
-      else if (!/[A-I]/g.test(row) || !/[0-9]/g.test(col)) {
-        return res.json({ error: 'Invalid coordinate'});
-      }
-      else if (Number(value) < 1 || Number(value) > 9) {
-        return res.json({ error: 'Invalid value' });
-      }
-      else {
-        return res.json({ valid: true });
-      }
     });
     
   app.route('/api/solve')
     .post((req, res) => {
       const puzzle = req.body;
       // const solver = new SudokuSolver;
-      const validated = solver.validate(puzzle);
-      if (!validated['success']) {  // validation failed
-        console.log("unvalidated");
-        return res.json(validated)
-      } else {  // validation was a success, proceed to solve sudoku puzzle
-        // console.log("validated");
-        // console.log(validated);
-        // res.json(validated);
-        const solved = solver.solve(puzzle)
-        if (!solved) {
-          // console.log(solved);
-          return res.json({ error: 'Puzzle cannot be solved' });
-        } else {
-          // console.log("Puzzle is now solved")
-          // console.log(solved);
-          return res.json({ solution: solved });
-        }
-      }
+      
+      // const validated = solver.validate(puzzle);
+      // // if (!validated['success']) {  // validation failed
+      // // if (validated != true) {
+      // if (!validated['valid']) {
+      //   // console.log("unvalidated");
+      //   return res.json(validated);
+      // } else {  // validation was a success, proceed to solve sudoku puzzle
+      //   // console.log("validated");
+      //   // console.log(validated);
+      //   // res.json(validated);
+      //   const solved = solver.solve(puzzle)
+      //   if (!solved) {
+      //     // console.log(solved);
+      //     return res.json({ error: 'Puzzle cannot be solved' });
+      //     // return res.json(solved);
+      //   } else {
+      //     // console.log("Puzzle is now solved")
+      //     // console.log(solved);
+      //     return res.json({ solution: solved });
+      //   }
+
+      //   // console.log("return value: ", solved);
+      //   // return res.json(solved);
+      // }
+
+      const solved = solver.solve(puzzle);
+
+      // if (solved['error']) {
+      // //     // console.log(solved);
+      //     return res.json(solved);  // return validate() function error result
+      // //     // return res.json(solved);
+      //   } else {
+      // //     // console.log("Puzzle is now solved")
+      // //     // console.log(solved);
+      //     // console.log(solved);
+      //     if (solved) {
+      //       return res.json({ solution: solved });
+      //     } else {
+      //       // return res.json({ error: 'Puzzle cannot be solved' });
+      //       return solved;
+      //     }
+      //   }
+      console.log(solved);
+      return res.json(solved);
     });
 };

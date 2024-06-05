@@ -18,6 +18,7 @@ function fillpuzzle(data) {
   for (let i = 0; i < len; i++) {
     let rowLetter = String.fromCharCode('A'.charCodeAt(0) + Math.floor(i / 9));
     let col = (i % 9) + 1; 
+    document.getElementsByClassName(rowLetter + col)[0].style.backgroundColor = "white";
     if (!data[i] || data[i] === ".") {
       document.getElementsByClassName(rowLetter + col)[0].innerText = " ";
       document.getElementsByClassName(rowLetter + col)[0].style.backgroundColor = "green";
