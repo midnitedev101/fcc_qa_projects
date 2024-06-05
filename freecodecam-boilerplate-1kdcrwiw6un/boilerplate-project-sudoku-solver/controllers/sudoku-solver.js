@@ -1,5 +1,6 @@
 // Backtracking algorithm inspiration: https://www.geeksforgeeks.org/sudoku-backtracking-7/ and https://www.youtube.com/watch?v=6XDcvG2ZCRc
 // Unit testing solutions based on: https://github.com/peterfknparker/boilerplate-project-sudoku-solver/blob/master/tests/2_functional-tests.js and https://www.youtube.com/watch?v=6XDcvG2ZCRc
+// Test Hints: https://github.com/freeCodeCamp/freeCodeCamp/blob/main/curriculum/challenges/english/06-quality-assurance/quality-assurance-projects/sudoku-solver.md
 class SudokuSolver {
 
   constructor() {
