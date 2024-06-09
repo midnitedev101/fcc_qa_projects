@@ -14,15 +14,18 @@ const translateHandler = async () => {
       "Accept": "application/json",
       "Content-type": "application/json"
     },
+    // body: JSON.stringify({"text": textArea.value, "locale": localeArea.value})
     body: JSON.stringify({"text": textArea.value, "locale": localeArea.value})
   });
 
   const parsed = await data.json();
   if (parsed.error) {
+    console.log(parsed.error);
     errorArea.innerText = JSON.stringify(parsed);
     return;
   }
 
+  // translatedArea.innerHTML = '<span class="highlight">'+parsed.translation+'</span>';
   translatedArea.innerHTML = parsed.translation;
   return;
 };
